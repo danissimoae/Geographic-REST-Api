@@ -37,7 +37,7 @@ timezone_utc = {
 
 
 data = [] # Данные храним в     
-with open('RU.txt', 'r', encoding='utf-8') as f:
+with open('GEO.txt', 'r', encoding='utf-8') as f:
     reader = csv.reader(f, delimiter='\t')
     for row in reader:
         data.append({
